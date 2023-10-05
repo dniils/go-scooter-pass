@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "YandexBlack";
+  src: url("../fonts/text-black.woff");
+}
+
+@font-face {
+  font-family: "YandexMedium";
+  src: url("../fonts/text-medium.woff");
+}
+
+@font-face {
+  font-family: "YandexRegular";
+  src: url("../fonts/text-regular.woff");
+}
+
+* {
+  font-family: YandexMedium;
+}
+
+h2,
+h3,
+h4 {
+  font-family: YandexBlack;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 72px;
+  letter-spacing: -1.44px;
+}
+
+h3 {
+  font-size: 56px;
+  letter-spacing: -1.12px;
+}
+
+h4 {
+  font-size: 48px;
+  letter-spacing: -0.96px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 31.2px;
+}
+
+button {
+  font-size: 24px;
+  line-height: 22px;
+}
+
+.benefits {
+  &__text {
+    line-height: 28.8px;
+  }
+}
