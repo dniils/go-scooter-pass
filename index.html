@@ -3,36 +3,38 @@
 
 <head>
   <meta charset="UTF-8" />
-  <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+  <link rel="icon" type="image/svg+xml" href="./assets/img/icons/scooter-icon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>go-scooter-pass</title>
+  <title>Scooter Club</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="section section_join-club">
-      <img src="./assets/img/yandex-go-ru-black.svg" alt="YandexGo" class="logo">
-      <h2 class="title">Вступайте <br> в клуб <br> Самокатов</h2>
-      <p>
-        Купите абонемент, чтобы стать <br> частью клуба в новом сезоне–2024. <br> 8 месяцев за
-        <span class="price">
-          <span class="price_after">499₽</span>
-          <span class="price_before">3190₽</span>
-        </span>
+    <div>
+      <div class="section section-join-club">
+        <img src="./assets/img/yandex-go-ru-black.svg" alt="YandexGo" class="logo">
+        <h2 class="title section-join-club__title">Вступайте <br> в клуб <br> Самокатов</h2>
+        <p class="section-join-club__text">
+          Купите абонемент, чтобы стать <br> частью клуба в новом сезоне–2024. <br> 8 месяцев за
+          <span class="price">
+            <span class="price_after">499₽</span>
+            <span class="price_before">3190₽</span>
+          </span>
 
-      </p>
-      <button class="btn btn_join">
-        Стать частью клуба
-      </button>
+        </p>
+        <a class="btn btn_join" href="https://go.yandex/ru_ru/lp/rides/scooter" target="_blank">
+          Стать частью клуба
+        </a>
 
-      <div class="gradient"></div>
-      <img src="./assets/img/smkt0003-2.png" alt="scooter-image" class="img-scooter">
-      <img src="./assets/img/circle.png" alt="scooter-lovers-club" class="img-scooter-club">
+        <div class="gradient"></div>
+        <img src="./assets/img/smkt0003-2.png" alt="scooter-image" class="img-scooter">
+        <img src="./assets/img/circle.svg" alt="scooter-lovers-club" class="img-scooter-club">
 
+      </div>
     </div>
 
-    <div class="section section_benefits">
-      <h3 class="title_benefits">Вот что даёт участие <br> в клубе</h3>
+    <div class="section section-benefits">
+      <h3 class="section-benefits__title">Вот что даёт участие <br> в клубе</h3>
       <div class="benefits">
         <div class="benefits__item">
           <img class="benefits__icon" src="./assets/img/icons/0-rubles-icon.svg" alt="0 рублей">
@@ -55,9 +57,70 @@
             по пути на другой —
             это бесплатно</p>
         </div>
-
       </div>
     </div>
+
+    <div class="section section-access">
+      <h4 class="section-access__title">Эксклюзивный доступ <br>к событиям Самокатов</h4>
+      <p class="section-access__text">С абонементом — у вас доступ к специальным мероприятиям, скидки и классный мерч.
+        В 2023 году мы танцевали
+        на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым и слушали хор Attaque de Panique</p>
+      <div class="section-access__images">
+        <img class="section-access__image" src="./assets/img/photos/1.jfif" alt="1">
+        <img class="section-access__image" src="./assets/img/photos/2.jfif" alt="2">
+        <img class="section-access__image" src="./assets/img/photos/3.jfif" alt="3">
+        <img class="section-access__image" src="./assets/img/photos/4.jfif" alt="4">
+      </div>
+    </div>
+
+    <div class="section section-plus">
+      <div class="section-plus__content">
+        <h4 class="section-plus__title">Купить <br> абонемент<br> и вступить <br>в клуб смогут<br> те, кто в Плюсе</h4>
+        <p class="section-plus__text">За каждую поездку на самокатах такие пользователи получают кешбэк баллами. Баллы
+          можно тратить на поездки
+          на самокатах и такси с Яндекс Go, покупки и заказы в других сервисах Яндекса
+        </p>
+      </div>
+      <div class="section-plus__image-wrapper">
+        <img class="section-plus__image-scooter" src="./assets/img/scooter.png" alt="Самокат">
+        <img class="section-plus__image-plus" src="./assets/img/plus.png" alt="Плюс">
+      </div>
+    </div>
+
+    <div class="section section-join">
+      <div class="section-join__content">
+        <h4 class="section-join__title">80  % наших пользователей уже в клубе и экономят на поездках</h4>
+        <p class="section-join__text">
+          Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии сезона предупредим заранее, чтобы
+          вы были готовы
+        </p>
+        <a class="btn" href="https://go.yandex/ru_ru/lp/rides/scooter" target="_blank">
+          Хочу абонемент
+        </a>
+      </div>
+      <div class="section-join__image-wrapper">
+        <img class="section-join__image-scooter-basic" src="./assets/img/scooter-basic.png" alt="Самокат">
+        <img class="section-join__image-scooter-club" src="./assets/img/circle.svg" alt="scooter-lovers-club">
+      </div>
+    </div>
+
+    <footer class="section section-footer">
+      Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически с момента старта сезона 2024
+      г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на доп.опцию
+      «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа
+      <a href="https://yandex.ru/legal/scooters_seasonpass" target="_blank">yandex.ru/legal/scooters_seasonpass</a>.
+      Доп.опция доступна пользователям с активной подпиской (условия подписки:
+      <a href="https://yandex.ru/legal/yandex_plus_conditions"
+        target="_blank">yandex.ru/legal/yandex_plus_conditions</a>),
+      есть ограничения, подробнее:
+      <a href="https://yandex.ru/legal/yandex_plus_opzii_list"
+        target="_blank">yandex.ru/legal/yandex_plus_opzii_list</a>.
+      В
+      случае отсутствия у пользователя активной подписки на дату активации доп.опции, пользователю предоставляется 7
+      дней подписки Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go — сервис аренды
+      электросамокатов на условиях:
+      <a href="https://clck.ru/gwDGn" target="_blank">clck.ru/gwDGn</a>. 0+
+    </footer>
   </div>
   <script type="module" src="/main.js"></script>
 </body>
